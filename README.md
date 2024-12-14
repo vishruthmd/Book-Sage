@@ -1,21 +1,30 @@
-# books-recommendation
+# BookSage: AI-Powered Book Recommendation System
 
-Goal : Recommending books with Python using Amazon Books Dataset from Kaggle website
+BookSage is an innovative AI-driven book recommendation system designed to revolutionize how readers discover books. By integrating sentiment analysis and text mining, BookSage provides personalized and emotionally resonant book suggestions that align with the user's mood and preferences.
 
-Open for contribution, read opened issues
+---
 
-If interested in one, comment and I'll assign it to you.
+## Features
 
-```
-pip install -r requirements.txt
-```
-```
-pytest
-```
-```
-python .\main.py
-```
+- **Mood-Based Recommendations**: Leverages sentiment analysis to suggest books based on the user's current emotional state.
+- **Tailored Suggestions**: Adapts to user preferences, evolving recommendations over time.
+- **Interactive Interface**: Allows users to express their emotions and receive recommendations instantly.
+- **Data-Driven Insights**: Utilizes mined data from platforms like Goodreads for accurate and engaging suggestions.
 
-Project started on May, 12th 2024
+---
 
-Don't hesitate to contact me.
+## Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Flask
+- **Database**: CSV-based data integration
+- **Machine Learning**: Natural Language Processing (NLP) and Sentiment Analysis
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vishruthmd/BookSage.git
+   cd BookSage
