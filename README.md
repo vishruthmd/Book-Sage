@@ -33,5 +33,4 @@ BookSage is an innovative AI-driven book recommendation system designed to revol
    ```bash
    pip install -r requirements.txt
 
-   ```bash
    python .\main.py
