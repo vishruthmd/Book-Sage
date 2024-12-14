@@ -28,3 +28,10 @@ BookSage is an innovative AI-driven book recommendation system designed to revol
    ```bash
    git clone https://github.com/vishruthmd/BookSage.git
    cd BookSage
+
+## How to Run
+   ```bash
+   pip install -r requirements.txt
+
+   ```bash
+   python .\main.py
