@@ -1,0 +1,5 @@
+flask
+fuzzywuzzy
+pandas
+pytest
+python-Levenshtein

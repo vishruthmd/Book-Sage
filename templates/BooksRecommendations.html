@@ -1,0 +1,22 @@
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>TODO</title>
+        <style>.description-column {width: 500px;}</style>
+    </head>
+
+    <body>
+
+        <ul class="list-books">
+            {% for book in recommendedBooks %}
+                <li class="book">{{ book }}</li>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
